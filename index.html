@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <form>
+        <input type="text" id ="Title" placeholder="Enter the title of the book">
+        <input type="text" id="Author" placeholder="Enter the author of the book">
+        <input type="text" id="Pages" min="1" step="1" placeholder="Enter the number of page">
+        <div class= "container">
+            <span>Have you already finished this book?</span>
+            <input type="checkbox" id="Status" Have you already finished this book?>    
+        </div>     
+        <input type="button" onClick="addBookToLibrary()" value ="Submit this book to library">
+    </form>
+
+
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Pages</th>
+            <th>Status</th>
+            <th class = "hidden fixedWidth">Hidden</th>
+        </tr>
+    </table>
+    
+
+    <script src="javascript.js" defer></script>
+</body>
+
+
+
+
+</html>
+
+
+
